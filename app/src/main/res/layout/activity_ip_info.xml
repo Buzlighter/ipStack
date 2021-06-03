@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/info_background"
+    android:orientation="vertical"
+    tools:context=".ui.IpInfoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@android:color/white" />
+
+
+    <TextView
+        android:id="@+id/first_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="580dp"
+        android:text="@string/header_ip"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/second_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="459dp"
+        android:text="@string/header_location"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/third_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="339dp"
+        android:text="@string/header_gps"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fourth_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="462dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="253dp"
+        android:text="@string/header_provider"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fifth_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="542dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="173dp"
+        android:text="@string/header_timezone"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ip"
+        android:textColor="@color/white"
+        android:layout_width="336dp"
+        android:layout_height="32dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="541dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/city"
+        android:text="@string/data_city"
+        android:textColor="@color/white"
+        android:layout_width="333dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="425dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/region"
+        android:text="@string/data_region"
+        android:textColor="@color/white"
+        android:layout_width="333dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/country"
+        android:text="@string/data_country"
+        android:textColor="@color/white"
+        android:layout_width="333dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="382dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:text="@string/data_latitude"
+        android:textColor="@color/white"
+        android:layout_width="334dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="310dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:text="@string/data_longitude"
+        android:textColor="@color/white"
+        android:layout_width="334dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="422dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="285dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/isp"
+        android:text="@string/data_isp"
+        android:textColor="@color/white"
+        android:layout_width="333dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="222dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gmt"
+        android:textColor="@color/white"
+        android:layout_width="332dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/first_card"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="496dp"
+        android:src="@drawable/big_cardview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/second_card"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="375dp"
+        android:src="@drawable/big_cardview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/third_card"
+        android:layout_width="350dp"
+        android:layout_height="74dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="281dp"
+        android:src="@drawable/medium_cardview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fourth_cardview"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="462dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="211dp"
+        android:src="@drawable/small_cardview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fifth_cardview"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="542dp"
+        android:layout_marginEnd="33dp"
+        android:src="@drawable/small_cardview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

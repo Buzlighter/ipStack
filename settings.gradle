@@ -1,0 +1,2 @@
+rootProject.name = "ipStack"
+include ':app'

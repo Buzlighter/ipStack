@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tool_copy"
+        android:title="@string/toolbar_copy"
+        android:icon="@drawable/iv_copy"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/tool_share"
+        android:title="@string/toolbar_share"
+        android:icon="@drawable/iv_share"
+        app:showAsAction="ifRoom|withText">
+    </item>
+</menu>

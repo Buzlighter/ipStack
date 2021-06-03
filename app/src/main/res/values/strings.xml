@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ipStack</string>
+    <string name="second_header">ИЛИ УЗНАЙТЕ СВОЙ</string>
+    <string name="first_header">ВВЕДИТЕ IP</string>
+    <string name="check_ip">УЗНАТЬ IP</string>
+    <string name="open_web">ОТКРЫТЬ</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_message">ИНТЕРНЕТ ОТСУТСВУЕТ</string>
+    <string name="dialog_check">Проверьте соединение</string>
+    <string name="dialog_answer">Повторить запрос</string>
+    <string name="request_error">Ошибка запроса</string>
+    <string name="invalid_input">Неверный формат ввода</string>
+    <string name="toolbar_copy">copy</string>
+    <string name="toolbar_share">share</string>
+    <string name="set_flag">set flag</string>
+    <string name="data_city">Город: </string>
+    <string name="data_isp">ISP: </string>
+    <string name="data_longitude">Долгота:</string>
+    <string name="data_latitude">Широта:</string>
+    <string name="data_country">Страна:</string>
+    <string name="data_region">Регион:</string>
+    <string name="header_ip">Ваш IP адрес</string>
+    <string name="header_location">Сведения о Местоположении</string>
+    <string name="header_gps">Gps координаты</string>
+    <string name="header_provider">Сведения об интернет-провайдере</string>
+    <string name="header_timezone">Часовой пояс</string>
+</resources>
