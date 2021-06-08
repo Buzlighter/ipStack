@@ -8,7 +8,7 @@ public interface MainView {
 
     void showProgress();
 
-    void showData(@NonNull IpDataResponse response);
+    void showData(IpDataResponse response);
 
     void showError(int message);
 }

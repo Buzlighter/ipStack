@@ -25,7 +25,7 @@ public class WebViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web_view);
 
-        webView = (WebView) findViewById(R.id.webview);
+        webView = findViewById(R.id.webview);
 
         prefUrlStorage = getSharedPreferences(PREF_TAG, Context.MODE_PRIVATE);
 
